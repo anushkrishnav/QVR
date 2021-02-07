@@ -6,7 +6,7 @@ let points = {
 };
 let K = 0;
 
-let socket = io("http://127.0.0.1:5000/compute");
+let socket = io("http://0.0.0.0:5000/compute");
 socket.on("connect", function () {
     console.log('Connected');
 });
