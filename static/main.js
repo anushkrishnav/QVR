@@ -6,7 +6,7 @@ let points = {
 };
 let K = 0;
 
-let socket = io("https://qvr.azurewebsites.net/compute");
+let socket = io("https://quantumvr.herokuapp.com/compute");
 socket.on("connect", function () {
     console.log('Connected');
 });
