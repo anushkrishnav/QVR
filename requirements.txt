@@ -1,0 +1,8 @@
+Flask==1.1.2
+numpy==1.20.0
+Flask_SocketIO==5.0.1
+qiskit_ignis==0.5.1
+cplex==20.1.0.0
+qiskit==0.23.4
+docplex==2.19.202
+eventlet
