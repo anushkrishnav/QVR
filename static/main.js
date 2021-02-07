@@ -6,12 +6,13 @@ let points = {
 };
 let K = 0;
 
-let socket = io("http://127.0.0.1:5000/compute");
+let socket = io("https://qvr.azurewebsites.net/compute");
 socket.on("connect", function () {
     console.log('Connected');
 });
 
 socket.on("classical_response", function (message) {
+    console.log(message);
     drawData(message, 'classical');
 });
 
