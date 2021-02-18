@@ -9,16 +9,16 @@ Project Title: â€œDelivering Vaccines Using Qiskit and Vehicle Routing Problemâ€
 ## Inspiration
 As we all currently know, COVID vaccines are being dispersed throughout the world at varying rates and times. As a general area of interest, we wanted to know if the solution to this could lie in quantum computing. Could Qiskit Aqua, given a certain number of trucks and stops, propose ideal routes for delivery in a realistic way? Furthermore, if it became a traveling drone problem instead of trucks, could the delivery be done more efficiently? Is it more cost efficient and time saving?
 
-##What was the exact issue
+## What was the exact issue
 A number of delivery vehicles (e.g. trucks and container ships) are operated by most service providers and most of these vehicles are based overnight, and serve a number of customer locations with each vehicle during each day. There are also challenges of optimization and control that take these criteria into account. Computationally, the main problem is how to build routes from depots to a variety of customer locations most efficiently without extra time or distance, as well as other resources, being spent.
 
-##Solution to the problem
+## Solution to the problem
 After going through a lot of optimisation problems we finally agreed to go ahead with the Vehicle Routing Problem (VRP). VRP is one of the most challenging combinatorial optimization tasks, a central problem in the areas of transportation, distribution and logistics. Decreasing transport costs can be achieved through better resources (vehicles) utilization. VRP is to design route for N vehicles with M depots and P customers in order to meet the given constraints (less time, less fuel, less trucks, less workers)
 
 ## What it does
-Our API makes use of Mapbox to calculate distances and routes from one depot to drop-off locations. Using Qiskit Aqua, it gives a comparison of methods (the noisy QASM Simulator, the QASM Simulator with Matrix-State Method, the StateVector Simulator Method, the classical/binary solver, and quantum solver methods) for efficiency. 
+Our APP makes use of Mapbox to calculate distances and routes from one depot to drop-off locations. Using Qiskit Aqua, it gives a comparison of methods (the noisy QASM Simulator, the QASM Simulator with Matrix-State Method, the StateVector Simulator Method, the classical/binary solver, and quantum solver methods) for efficiency. 
 
-##Overall Workflow
+## Overall Workflow
 
 
 
